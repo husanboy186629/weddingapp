@@ -67,7 +67,7 @@ function GuestLogin({ onLogin }) {
                 type="text"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
-                placeholder="Masalan: Sardor"
+                placeholder="Masalan: Xusanboy"
                 required
                 className="w-full pl-11 pr-4 py-3 border border-gold-200 rounded-xl bg-white/90
                            font-serif text-base focus:border-gold-500 focus:ring-2 focus:ring-gold-200
@@ -86,7 +86,7 @@ function GuestLogin({ onLogin }) {
                 type="text"
                 value={lastName}
                 onChange={(e) => setLastName(e.target.value)}
-                placeholder="Masalan: Karimov"
+                placeholder="Masalan: Xamidov"
                 required
                 className="w-full pl-11 pr-4 py-3 border border-gold-200 rounded-xl bg-white/90
                            font-serif text-base focus:border-gold-500 focus:ring-2 focus:ring-gold-200
