@@ -271,7 +271,7 @@ export default function GuestView() {
             </p>
 
             <h1 className="font-script text-5xl sm:text-6xl text-gold-600 mb-2 leading-tight">
-              Aziz & Aziza
+              Fotima & Ibrohimjon
             </h1>
 
             <div className="flex items-center justify-center gap-3 my-2">
@@ -418,7 +418,7 @@ export default function GuestView() {
 
       {/* FOOTER & ADMIN LINK */}
       <footer className="text-center py-6 font-sans text-xs text-gray-400 flex flex-col items-center gap-2">
-        <span className="ornament">Aziz & Aziza — 20.10.2026</span>
+        <span className="ornament">Fotima & Ibrohimjon — 20.10.2026</span>
         <Link
           to="/admin"
           className="text-gray-400 hover:text-gold-600 transition-colors flex items-center gap-1 font-serif text-xs opacity-70 hover:opacity-100"

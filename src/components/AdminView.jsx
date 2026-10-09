@@ -44,7 +44,7 @@ function AdminLogin({ onLogin }) {
       sessionStorage.setItem('admin_auth', 'true');
       onLogin(true);
     } else {
-      setError("Noto'g'ri pin-kod! (To'g'ri kod: 20102026)");
+      setError("Noto'g'ri parol!");
       setShake(true);
       setTimeout(() => setShake(false), 500);
     }
@@ -66,7 +66,7 @@ function AdminLogin({ onLogin }) {
             <Shield className="w-8 h-8 text-white" />
           </div>
           <h2 className="font-serif text-2xl font-bold text-gray-800">Admin Kirish</h2>
-          <p className="font-sans text-sm text-gray-500 mt-1">To'y sanasini kiriting (kun oyi yili)</p>
+          <p className="font-sans text-sm text-gray-500 mt-1">Davom etish uchun parolni kiriting</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -80,12 +80,12 @@ function AdminLogin({ onLogin }) {
                 setPin(e.target.value);
                 setError('');
               }}
-              placeholder="Masalan: 20102026"
+              placeholder="Parolni kiriting"
               required
               className="w-full pl-11 pr-4 py-3 border border-gold-200 rounded-xl bg-white/90
-                         font-serif text-lg text-center tracking-widest
+                         font-serif text-base text-center
                          focus:border-gold-500 focus:ring-2 focus:ring-gold-200
-                         transition-all placeholder:tracking-normal"
+                         transition-all placeholder:text-gray-400"
             />
           </div>
 
@@ -247,7 +247,7 @@ export default function AdminView() {
                 To'y Admin Paneli
               </h1>
               <p className="font-sans text-xs text-gold-700">
-                Aziz & Aziza — 20.10.2026
+                Fotima & Ibrohimjon — 20.10.2026
               </p>
             </div>
           </div>

@@ -134,7 +134,7 @@ const StoryCard = React.forwardRef(function StoryCard({ wish }, ref) {
             marginBottom: '12px',
           }}
         >
-          Aziz & Aziza
+          Fotima & Ibrohimjon
         </h1>
 
         {/* decorative line with heart */}
